@@ -25,7 +25,6 @@ describe('Portfolio', function(){
       expect(p1.stock[0].count).to.equal(75);
       expect(p1.stock[1].symbol).to.equal('AMZN');
       expect(p1.stock[1].count).to.equal(50);
-      
     });
   });
 });
